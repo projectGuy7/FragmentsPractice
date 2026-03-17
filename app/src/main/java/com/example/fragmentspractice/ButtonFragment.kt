@@ -9,11 +9,6 @@ import android.view.ViewGroup
 import com.example.fragmentspractice.databinding.FragmentButtonsBinding
 
 
-/**
- * A simple [Fragment] subclass.
- * Use the [ButtonFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class ButtonFragment : Fragment() {
     private var _binding: FragmentButtonsBinding? = null
     private val binding get() = _binding!!
